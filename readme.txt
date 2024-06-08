@@ -1,5 +1,5 @@
 基於https://github.com/regob/vehicle_reid 修改的
-下載預訓練模型 resnet50_mixstyle，然後用AI_CUPy資料集去微調
+下載預訓練模型 resnet50_mixstyle，然後用AI_CUP資料集去微調
 https://drive.google.com/file/d/1STbsacssLtlHpUesNzuTeUPrfMlWbSKu/view
 
 
