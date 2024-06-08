@@ -1,4 +1,4 @@
-基於https://github.com/regob/vehicle_reid 修改額來
+基於https://github.com/regob/vehicle_reid 修改的
 
 訓練reid:
 cd vehicle_reid
