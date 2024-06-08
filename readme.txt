@@ -3,10 +3,10 @@
 https://drive.google.com/file/d/1STbsacssLtlHpUesNzuTeUPrfMlWbSKu/view
 
 
-訓練reid:
+訓練AI_CUP競賽的ReID:
 cd vehicle_reid
 pip install -r requirements.txt
-訓練的AI_CUP競賽的ReID模型
+
 python train.py --data_dir ../datasets  --name resnet50_ibn11 --color_jitter  --mixstyle  --train_csv_path ../datasets/AI_CUP/train_labels.csv  --val_csv_path ../datasets/AI_CUP/val_labels.csv  --batchsize 32 --total_epoch 120 --warm_epoch 3  --save_freq 5 --erasing_p 0.5 --model resnet_ibn --model_subtype 50  --contrast   --num_workers 0 --samples_per_class=4 --cosine --checkpoint C:\Users\LPCAS\Desktop\vehicle_reid\vehicle_reid\model\resnet50_mixstyle\net_19.pth --start_epoch 20 --lr=0.008
 
 
