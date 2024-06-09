@@ -3,6 +3,8 @@
 https://drive.google.com/file/d/1STbsacssLtlHpUesNzuTeUPrfMlWbSKu/view
 
 需將從Baseline示範訓練 fast_reid時生成的bounding_box_test,bounding_box_train資料夾放入\vehicle_reid\datasets\AI_CUP下
+(https://github.com/ricky-696/AICUP_Baseline_BoT-SORT)
+
 
 訓練AI_CUP競賽的ReID:
 cd vehicle_reid
