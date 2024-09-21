@@ -17,5 +17,5 @@ python train.py --data_dir ../datasets  --name resnet50_ibn11 --color_jitter  --
 
 如果想使用訓練完的模型看query可視化效果及查看rank,map，已分割好test_csv,query_csv,train_csv，
 打開.ipynb_checkpoints/run_ok.ipynb
-照順序執行即可，如果要用不同ID車輛進行query，[19]在random.seed(666)中的666替換任意數字就可了 。
+照順序執行即可，如果要用不同ID車輛進行query，在random.seed(666)中的666替換任意數字就可了 。
 
